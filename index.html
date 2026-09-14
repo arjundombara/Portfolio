@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arjun Dombara | Computer Science & Data Science Portfolio</title>
+  <meta name="description" content="Portfolio of Arjun Dombara - Computer Science & Data Science Student and Aspiring Software Developer specializing in Java, Python, Machine Learning, and Algorithmic Problem Solving." />
+  <meta name="keywords" content="Arjun Dombara, Portfolio, Computer Science, Data Science, Software Developer, Java, Python, Machine Learning, Algorithms" />
+  <meta name="author" content="Arjun Dombara" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand" aria-label="Arjun Dombara Home">
+        <img src="assets/avatar.png" alt="Arjun Dombara" class="nav-avatar-img" />
+        <span class="brand-name">Arjun<span class="brand-highlight"> Dombara</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <!-- Left Side: Hero Info -->
+        <div class="hero-content">
+          
+          <div class="hero-top-profile">
+            <div class="profile-avatar-frame">
+              <img src="assets/avatar.png" alt="Arjun Dombara Profile" class="hero-real-profile-img" />
+              <span class="online-indicator" title="Available"></span>
+            </div>
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              <span>Available for Opportunities</span>
+            </div>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="gradient-text hero-name">ARJUN DOMBARA</span>
+          </h1>
+
+          <div class="hero-roles">
+            <div class="role-pill">
+              <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+              <span>Computer Science & Data Science Student</span>
+            </div>
+            <div class="role-pill accent-role">
+              <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              <span>Aspiring Software Developer</span>
+            </div>
+          </div>
+
+          <p class="hero-description">
+            I am a B.Tech Computer Science & Data Science student passionate about software development, data science, machine learning, and algorithmic problem-solving. I enjoy building practical projects and continuously improving my technical skills.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <div class="social-links">
+              <a href="https://github.com/arjundombara" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub - arjundombara" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="https://linkedin.com/in/arjun-dombara-29a6b6389" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn - Arjun Dombara" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="https://leetcode.com/u/Arjun_Dombara" target="_blank" rel="noopener noreferrer" class="social-link" title="LeetCode - Arjun_Dombara" aria-label="LeetCode">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .666-1.797l3.76-4.017 5.308-5.694c.54-.54.54-1.414 0-1.955A1.374 1.374 0 0 0 13.483 0zm-2.88 5.904a1.377 1.377 0 0 0-.968.406l-4.706 4.706a1.378 1.378 0 0 0 0 1.95 1.378 1.378 0 0 0 1.95 0l4.706-4.706a1.377 1.377 0 0 0-.982-2.356z"/></svg>
+              </a>
+              <a href="mailto:arjundombara@gmail.com" class="social-link" title="Email Arjun" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </a>
+              <a href="tel:+916304009024" class="social-link" title="Call Arjun" aria-label="Phone">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Futuristic Tech Avatar -->
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-glow-ring"></div>
+            
+            <div class="avatar-container">
+              <img src="assets/avatar.png" alt="Arjun Dombara - Computer Science and Data Science Student Illustration" class="avatar-img" />
+              
+              <!-- Floating Interactive Tech Badges -->
+              <div class="floating-badge badge-top-left float-anim-1">
+                <span class="badge-icon java-color">☕</span>
+                <div class="badge-text">
+                  <span class="badge-title">Java & OOP</span>
+                  <span class="badge-sub">Core Architecture</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-top-right float-anim-2">
+                <span class="badge-icon python-color">🐍</span>
+                <div class="badge-text">
+                  <span class="badge-title">Python & ML</span>
+                  <span class="badge-sub">Data Intelligence</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom-left float-anim-3">
+                <span class="badge-icon c-color">⚡</span>
+                <div class="badge-text">
+                  <span class="badge-title">C & DSA</span>
+                  <span class="badge-sub">30+ Solved</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom-right float-anim-4">
+                <span class="badge-icon ai-color">🧠</span>
+                <div class="badge-text">
+                  <span class="badge-title">Data Science</span>
+                  <span class="badge-sub">Algorithms & Models</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Terminal status snippet below avatar -->
+            <div class="avatar-status-pill">
+              <span class="status-indicator"></span>
+              <code>Building scalable software & ML solutions</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-card">
+            <div class="about-card-top">
+              <div class="about-author-badge">
+                <img src="assets/avatar.png" alt="Arjun Dombara" class="about-author-img" />
+                <div>
+                  <h3 class="about-author-name">Arjun Dombara</h3>
+                  <span class="about-author-sub">Computer Science & Data Science</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-intro">
+              <div class="quote-icon">“</div>
+              <p class="about-text">
+                I am a B.Tech Computer Science & Data Science student passionate about software development, data science, machine learning, and algorithmic problem-solving. I enjoy building practical projects and continuously improving my technical skills.
+              </p>
+            </div>
+
+            <div class="about-highlights-grid">
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+                <h4>Software Engineering</h4>
+                <p>Designing structured, object-oriented systems with clean architectures.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
+                </div>
+                <h4>Data Science & AI</h4>
+                <p>Developing machine learning models and predictive analytics.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                </div>
+                <h4>Algorithms & Logic</h4>
+                <p>Optimizing complex flows, data structures, and computational speed.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <h4>Security & Networks</h4>
+                <p>Understanding Zero Trust, cloud security, and cyber defense foundations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Journey</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-vertical">
+
+            <!-- Timeline Item 1: B.Tech -->
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot current">
+                <span class="dot-inner"></span>
+              </div>
+              <div class="timeline-content glass-card current-education">
+                <div class="timeline-badge-row">
+                  <span class="timeline-badge btech-badge">B.Tech</span>
+                  <span class="timeline-date">2025 – Present</span>
+                </div>
+                <h3 class="institution-name">Rajeev Gandhi Memorial College of Engineering and Technology</h3>
+                <h4 class="degree-title">Bachelor of Technology (B.Tech) – Computer Science & Data Science</h4>
+                
+                <div class="focus-area">
+                  <span class="focus-label">Core Focus:</span>
+                  <div class="tag-cloud">
+                    <span class="focus-tag">Data Structures & Algorithms</span>
+                    <span class="focus-tag">Object-Oriented Programming</span>
+                    <span class="focus-tag">Machine Learning</span>
+                    <span class="focus-tag">Database Systems</span>
+                    <span class="focus-tag">Software Engineering</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2: Intermediate -->
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot">
+                <span class="dot-inner"></span>
+              </div>
+              <div class="timeline-content glass-card">
+                <div class="timeline-badge-row">
+                  <span class="timeline-badge">Intermediate</span>
+                  <span class="timeline-date">2023 – 2025</span>
+                </div>
+                <h3 class="institution-name">NJC Nucleus Junior College</h3>
+                <h4 class="degree-title">Intermediate – MPC (Mathematics, Physics, Chemistry)</h4>
+                <div class="tag-cloud">
+                  <span class="focus-tag">Mathematics</span>
+                  <span class="focus-tag">Physics</span>
+                  <span class="focus-tag">Chemistry</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 3: School -->
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot">
+                <span class="dot-inner"></span>
+              </div>
+              <div class="timeline-content glass-card">
+                <div class="timeline-badge-row">
+                  <span class="timeline-badge">School</span>
+                  <span class="timeline-date">Secondary Education</span>
+                </div>
+                <h3 class="institution-name">Vimala English Medium High School</h3>
+                <p class="timeline-summary">Foundational academic schooling and general science education.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Proficiency</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- Featured Highlights Bar -->
+        <div class="skills-highlight-bar glass-card">
+          <div class="highlight-title-group">
+            <span class="highlight-star">★</span>
+            <div>
+              <h3>Core Specializations</h3>
+              <p>Foundational pillars of software design and computation</p>
+            </div>
+          </div>
+          <div class="highlight-pills">
+            <div class="core-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              <span>Object-Oriented Programming (OOP)</span>
+            </div>
+            <div class="core-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              <span>Data Structures & Algorithms (DSA)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Category Grid -->
+        <div class="skills-grid">
+
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon-wrap cat-programming">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Programming</h3>
+                <span class="cat-count">3 Languages</span>
+              </div>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-level-text">Core & OOP</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill fill-cyan" style="width: 85%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level-text">Data & ML</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill fill-purple" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name">C</span>
+                  <span class="skill-level-text">Fundamentals & DSA</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill fill-blue" style="width: 75%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Data Science & AI -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon-wrap cat-ai">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 3.37 2.1 6.25 5.06 7.37L9 22h6l-.06-4.63C17.9 16.25 20 13.37 20 10a8 8 0 0 0-8-8z"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Data Science & AI</h3>
+                <span class="cat-count">Intelligence Models</span>
+              </div>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name">Machine Learning</span>
+                  <span class="skill-level-text">Applied ML</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill fill-cyan" style="width: 75%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name">Deep Learning</span>
+                  <span class="skill-level-text">Neural Networks</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill fill-purple" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Database -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon-wrap cat-db">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Database</h3>
+                <span class="cat-count">Data Lakehouse</span>
+              </div>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name">Databricks</span>
+                  <span class="skill-level-text">Lakehouse & Analytics</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill fill-blue" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Web -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon-wrap cat-web">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Web</h3>
+                <span class="cat-count">Frontend UI</span>
+              </div>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-level-text">Semantic Structure</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill fill-cyan" style="width: 85%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name">Web UI Basics</span>
+                  <span class="skill-level-text">Responsive Interfaces</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill fill-purple" style="width: 80%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 5: Tools & Platforms -->
+          <div class="skill-category-card glass-card skills-cat-wide">
+            <div class="skill-cat-header">
+              <div class="cat-icon-wrap cat-tools">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Tools & Platforms</h3>
+                <span class="cat-count">Development Ecosystem</span>
+              </div>
+            </div>
+            <div class="tools-grid-items">
+              <div class="tool-tag">
+                <span class="tool-bullet"></span>
+                <span>Git</span>
+              </div>
+              <div class="tool-tag">
+                <span class="tool-bullet"></span>
+                <span>GitHub</span>
+              </div>
+              <div class="tool-tag">
+                <span class="tool-bullet"></span>
+                <span>Jupyter Notebook</span>
+              </div>
+              <div class="tool-tag">
+                <span class="tool-bullet"></span>
+                <span>Google Colab</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECT SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Engineering & Algorithms</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Project</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="featured-project-card glass-card">
+          <div class="project-header-row">
+            <div class="project-title-group">
+              <div class="project-type-badge">
+                <span class="pulse-dot"></span>
+                <span>Algorithm & Supply Chain Architecture</span>
+              </div>
+              <h3 class="project-main-title">Disaster Relief Supply Chain Optimizer</h3>
+              <div class="project-role-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>
+                <span><strong>Role:</strong> Lead Developer & Algorithm Designer</span>
+              </div>
+            </div>
+            <div class="project-tech-badges">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">OOP</span>
+              <span class="tech-pill">Algorithms</span>
+            </div>
+          </div>
+
+          <p class="project-description-text">
+            Developed a relief supply distribution system that optimizes transportation of life-critical supplies such as food, water, and medicine from central depots to affected distribution points.
+          </p>
+
+          <div class="project-features-container">
+            <h4 class="features-heading">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Key Features & Architectural Highlights
+            </h4>
+            <div class="features-grid">
+              <div class="feature-item">
+                <span class="feature-icon">⚡</span>
+                <div class="feature-text">
+                  <strong>Network Flow Algorithms</strong>
+                  <span>Calculates optimal multi-commodity distribution paths.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">🛣️</span>
+                <div class="feature-text">
+                  <strong>Dynamic Road Capacity Constraints</strong>
+                  <span>Adapts to real-time route disruptions and capacities.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">🚨</span>
+                <div class="feature-text">
+                  <strong>High Urgency Routing</strong>
+                  <span>Prioritizes life-saving medicine and emergency aid delivery.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">📦</span>
+                <div class="feature-text">
+                  <strong>Object-Oriented Models</strong>
+                  <span>Modular classes for depots, routes, trucks, and resources.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">📍</span>
+                <div class="feature-text">
+                  <strong>Depot & Delivery Node Management</strong>
+                  <span>Centralized coordinate mapping and node state tracking.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">📊</span>
+                <div class="feature-text">
+                  <strong>Priority Matrices</strong>
+                  <span>Severity-based ranking for affected disaster zones.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">⚖️</span>
+                <div class="feature-text">
+                  <strong>Inventory Allocation</strong>
+                  <span>Smart stock rationing across multiple central depots.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">🔄</span>
+                <div class="feature-text">
+                  <strong>Supply & Demand Balancing</strong>
+                  <span>Prevents surplus hoarding and satisfies deficit zones.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">🛡️</span>
+                <div class="feature-text">
+                  <strong>Bottleneck Reduction</strong>
+                  <span>Identifies traffic/capacity choke points dynamically.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-actions-row">
+            <button class="btn btn-primary btn-sm" id="btnViewProject" data-project="relief-optimizer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <span>View Project</span>
+            </button>
+            <button class="btn btn-secondary btn-sm" id="btnProjectGithub" data-repo="disaster-relief-optimizer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              <span>GitHub</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Industry Experience</span>
+          <h2 class="section-title">Work & <span class="gradient-text">Experience</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="experience-timeline">
+          <div class="experience-card glass-card" data-aos="fade-up">
+            <div class="exp-header">
+              <div class="exp-company-info">
+                <div class="company-logo-badge">Z</div>
+                <div>
+                  <h3 class="company-name">Zscaler</h3>
+                  <h4 class="role-title">Virtual Internship — Cloud & Network Security</h4>
+                </div>
+              </div>
+              <div class="exp-duration-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Duration: 3 Months</span>
+              </div>
+            </div>
+
+            <div class="exp-body">
+              <p class="exp-intro-text">
+                Engaged in comprehensive virtual training and deep-dive technical explorations into enterprise cloud defense and perimeterless security architectures.
+              </p>
+
+              <div class="exp-topics-grid">
+                <div class="topic-chip">
+                  <span class="topic-check">✔</span>
+                  <span>Zero Trust Architecture</span>
+                </div>
+                <div class="topic-chip">
+                  <span class="topic-check">✔</span>
+                  <span>Cloud Security Concepts</span>
+                </div>
+                <div class="topic-chip">
+                  <span class="topic-check">✔</span>
+                  <span>SASE Concepts</span>
+                </div>
+                <div class="topic-chip">
+                  <span class="topic-check">✔</span>
+                  <span>Secure Enterprise Connectivity</span>
+                </div>
+                <div class="topic-chip">
+                  <span class="topic-check">✔</span>
+                  <span>Network Security Practices</span>
+                </div>
+                <div class="topic-chip">
+                  <span class="topic-check">✔</span>
+                  <span>Traffic Inspection Mechanisms</span>
+                </div>
+                <div class="topic-chip">
+                  <span class="topic-check">✔</span>
+                  <span>Cyber Defense Principles</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Verified Credentials</span>
+          <h2 class="section-title">Licenses & <span class="gradient-text">Certifications</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="certs-grid">
+          
+          <!-- Certification 1: IBM -->
+          <div class="cert-card glass-card">
+            <div class="cert-badge-icon ibm-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-issuer-badge">IBM</div>
+              <h3 class="cert-title">IBM Cybersecurity Fundamentals Badge & Verified Certificate</h3>
+              <p class="cert-description">
+                Demonstrated knowledge in network defense, cybersecurity principles, risk mitigation, and security governance.
+              </p>
+              <div class="cert-footer">
+                <span class="verified-status">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Verified Credential
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certification 2: Be10x -->
+          <div class="cert-card glass-card">
+            <div class="cert-badge-icon be10x-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 3.37 2.1 6.25 5.06 7.37L9 22h6l-.06-4.63C17.9 16.25 20 13.37 20 10a8 8 0 0 0-8-8z"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-issuer-badge">Be10x</div>
+              <h3 class="cert-title">Be10x AI Tools Workshop Verified Certificate</h3>
+              <p class="cert-description">
+                Hands-on workshop covering generative AI tools, prompt engineering workflows, and automation ecosystems.
+              </p>
+              <div class="cert-footer">
+                <span class="verified-status">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Verified Credential
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Milestones & Recognition</span>
+          <h2 class="section-title">Key <span class="gradient-text">Achievements</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <!-- Achievement 1: SIH 2025 -->
+          <div class="achievement-card glass-card">
+            <div class="achieve-icon-wrapper sih-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="achieve-content">
+              <div class="achieve-meta-row">
+                <span class="achieve-category">National Hackathon</span>
+                <span class="achieve-date">22 September 2025</span>
+              </div>
+              <h3 class="achieve-title">Smart India Hackathon (SIH) 2025</h3>
+              <p class="achieve-desc">
+                Participated in the national innovation hackathon on 22 September 2025, tackling real-world computational challenges.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 2: LeetCode -->
+          <div class="achievement-card glass-card">
+            <div class="achieve-icon-wrapper leetcode-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div class="achieve-content">
+              <div class="achieve-meta-row">
+                <span class="achieve-category">Algorithmic Problem Solving</span>
+                <span class="achieve-metric">30+ Solved</span>
+              </div>
+              <h3 class="achieve-title">LeetCode Algorithmic Milestones</h3>
+              <p class="achieve-desc">
+                Solved 30+ algorithmic problems focusing on core algorithmic efficiency and patterns:
+              </p>
+              <div class="achieve-tags">
+                <span>Data Structures</span>
+                <span>Arrays</span>
+                <span>Strings</span>
+                <span>Algorithmic Efficiency</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement 3: Professional Network -->
+          <div class="achievement-card glass-card">
+            <div class="achieve-icon-wrapper network-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="achieve-content">
+              <div class="achieve-meta-row">
+                <span class="achieve-category">Industry Engagement</span>
+                <span class="achieve-metric">300+ Connections</span>
+              </div>
+              <h3 class="achieve-title">Professional Engineering Network</h3>
+              <p class="achieve-desc">
+                Actively engaging with a network of 300+ professionals and fellow developers on LinkedIn, sharing technical perspectives and staying aligned with industry practices.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Let's Connect</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Left: Contact Information Cards -->
+          <div class="contact-info-col">
+            <div class="contact-header-box">
+              <h3>Connect with Arjun Dombara</h3>
+              <p>Feel free to reach out for collaborations, software development opportunities, or technical discussions.</p>
+            </div>
+
+            <div class="contact-details-list">
+              
+              <a href="mailto:arjundombara@gmail.com" class="contact-detail-card glass-card">
+                <div class="contact-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div class="contact-card-content">
+                  <span class="contact-label">Email Address</span>
+                  <span class="contact-val">arjundombara@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+916304009024" class="contact-detail-card glass-card">
+                <div class="contact-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div class="contact-card-content">
+                  <span class="contact-label">Phone Number</span>
+                  <span class="contact-val">+91 6304009024</span>
+                </div>
+              </a>
+
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="social-channels-card glass-card">
+              <h4>Official Profiles</h4>
+              <div class="channel-buttons">
+                <a href="https://github.com/arjundombara" target="_blank" rel="noopener noreferrer" class="channel-btn">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub</span>
+                  <span class="ext-arrow">↗</span>
+                </a>
+
+                <a href="https://linkedin.com/in/arjun-dombara-29a6b6389" target="_blank" rel="noopener noreferrer" class="channel-btn">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  <span>LinkedIn</span>
+                  <span class="ext-arrow">↗</span>
+                </a>
+
+                <a href="https://leetcode.com/u/Arjun_Dombara" target="_blank" rel="noopener noreferrer" class="channel-btn">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .666-1.797l3.76-4.017 5.308-5.694c.54-.54.54-1.414 0-1.955A1.374 1.374 0 0 0 13.483 0zm-2.88 5.904a1.377 1.377 0 0 0-.968.406l-4.706 4.706a1.378 1.378 0 0 0 0 1.95 1.378 1.378 0 0 0 1.95 0l4.706-4.706a1.377 1.377 0 0 0-.982-2.356z"/></svg>
+                  <span>LeetCode</span>
+                  <span class="ext-arrow">↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-col">
+            <div class="contact-form-card glass-card">
+              <h3>Send a Message</h3>
+              <p class="form-intro">Drop me a note below and I will get back to you promptly.</p>
+              
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="contactName">Your Name</label>
+                  <div class="input-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <input type="text" id="contactName" name="name" placeholder="e.g. Alex Johnson" required />
+                  </div>
+                  <span class="input-error-msg" id="nameError">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactEmail">Your Email</label>
+                  <div class="input-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <input type="email" id="contactEmail" name="email" placeholder="e.g. alex@example.com" required />
+                  </div>
+                  <span class="input-error-msg" id="emailError">Please enter a valid email address</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage">Your Message</label>
+                  <div class="input-wrapper textarea-wrapper">
+                    <textarea id="contactMessage" name="message" rows="5" placeholder="Hi Arjun, I would love to connect with you regarding..." required></textarea>
+                  </div>
+                  <span class="input-error-msg" id="messageError">Please enter your message</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="btnSubmit">
+                  <span>Send Message</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+              </form>
+
+              <!-- Form Success Message Box -->
+              <div class="form-success-box" id="formSuccessBox">
+                <div class="success-icon">✓</div>
+                <h4>Thank you for reaching out!</h4>
+                <p>Your message has been captured. I will get back to you at the earliest.</p>
+                <button type="button" class="btn btn-secondary btn-sm" id="btnResetForm">Send Another Message</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#home" class="footer-brand">
+          <span class="brand-badge">AD</span>
+          <span>Arjun Dombara</span>
+        </a>
+        <p class="footer-tagline">Computer Science & Data Science Student | Aspiring Software Developer</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Arjun Dombara. All rights reserved.</p>
+        <p class="footer-subtext">Built with modern HTML5, CSS3, & JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Info Modal -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-card glass-card">
+      <button class="modal-close" id="modalClose" aria-label="Close dialog">&times;</button>
+      <div class="modal-badge">Project Showcase</div>
+      <h3 id="modalTitle" class="modal-title">Disaster Relief Supply Chain Optimizer</h3>
+      <div class="modal-meta">
+        <span class="badge-pill">Java</span>
+        <span class="badge-pill">OOP</span>
+        <span class="badge-pill">Algorithms</span>
+        <span class="badge-pill">Lead Developer & Algorithm Designer</span>
+      </div>
+      <div class="modal-body">
+        <p id="modalDescription">
+          A high-performance algorithmic simulation system created to optimize the movement of critical aid supplies (food, medicine, drinking water) during disaster response scenarios. Designed using object-oriented principles, dynamic graph network flows, priority queuing, and bottleneck reduction algorithms.
+        </p>
+        <div class="modal-highlight-box">
+          <strong>Key Technical Architecture:</strong>
+          <ul>
+            <li>Dynamic capacity constraints & high urgency priority matrices</li>
+            <li>Depot to distribution node allocation balancing supply & demand</li>
+            <li>Robust Object-Oriented design with modular Java abstractions</li>
+          </ul>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <a href="https://github.com/arjundombara" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <span>Visit GitHub Profile</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+        </a>
+        <button class="btn btn-secondary btn-sm" id="modalDismissBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite">
+    <div class="toast-icon">✓</div>
+    <div class="toast-message" id="toastMessage">Action completed successfully</div>
+  </div>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- JavaScript Script -->
+  <script src="script.js"></script>
+</body>
+</html>
